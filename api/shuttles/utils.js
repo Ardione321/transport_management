@@ -98,22 +98,5 @@ module.exports = {
         } catch (error) {
             throw error;
         }
-    },
-
-    checkIfUserExisting: async(username, first_name, last_name) => {
-        try {
-            const result = await User.findOne({
-                attributes:['username', 'first_name', 'last_name'],
-                where: { username: username, first_name: first_name, last_name: last_name}
-            })
-
-            if(result) {
-                const error = new Error('User already exist!');
-                error.code = 401;
-                return true;
-            }
-        } catch (error) {
-            throw error;
-        }
     }
 };

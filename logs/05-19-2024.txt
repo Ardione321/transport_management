@@ -1,0 +1,4905 @@
+20:32:24 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+20:46:55 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+20:46:55 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+20:47:09 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+20:47:09 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+20:48:03 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+20:48:03 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+20:50:06 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+20:50:07 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+20:50:45 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+20:50:45 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+20:53:14 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+20:53:14 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+20:55:39 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+20:55:39 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+20:57:28 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+20:57:28 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+20:59:40 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+20:59:40 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:00:42 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:00:42 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:01:02 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:01:02 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:01:28 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:01:28 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:01:41 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:01:41 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:02:23 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:02:23 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:03:01 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:03:01 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:05:33 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:05:33 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:06:23 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:06:23 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:09:10 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:09:10 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:12:53 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:12:53 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:14:34 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:14:34 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:15:15 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:15:16 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:17:19 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:17:19 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:21:18 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:21:18 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:22:17 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:22:17 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:23:00 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:23:01 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:23:17 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:23:17 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:24:22 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:24:22 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:26:31 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:30:34 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:31:11 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:31:23 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:31:23 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:31:57 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:37:23 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:39:38 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:42:26 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:44:53 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:45:03 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:45:47 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:46:58 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:49:58 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+21:50:45 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:50:55 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+21:50:55 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:14:09 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:14:09 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:20:09 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:20:09 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:28:39 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:28:40 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:28:46 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:28:46 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:34:10 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:34:10 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:34:15 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:34:15 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:34:20 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:34:31 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:34:31 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:34:58 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:34:59 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:35:04 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:35:04 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:35:49 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:35:49 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:38:45 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:38:45 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:38:58 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:38:58 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:39:10 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:39:10 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:40:10 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:43:26 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:46:02 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:46:02 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			}
+		]
+	}
+}
+22:46:05 | [INFO] : /api/user/addBulletinMessage 
+body: {
+	"admin_username": "Arvi",
+	"holiday": "May 19, 2024",
+	"announcement": "Sahod day ng dalawa"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"message": "Saving successful.",
+			"holiday": "May 19, 2024",
+			"announcement": "Sahod day ng dalawa"
+		}
+	}
+}
+22:49:05 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:49:05 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			}
+		]
+	}
+}
+22:49:31 | [INFO] : /api/user/addBulletinMessage 
+body: {
+	"admin_username": "Arvi",
+	"holiday": "May 19, 2024",
+	"announcement": "Sahod day ng dalawa"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"message": "Saving successful.",
+			"holiday": "May 19, 2024",
+			"announcement": "Sahod day ng dalawa"
+		}
+	}
+}
+22:49:40 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:49:40 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			}
+		]
+	}
+}
+22:51:49 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:51:50 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			}
+		]
+	}
+}
+22:51:54 | [INFO] : /api/user/addBulletinMessage 
+body: {
+	"admin_username": "Arvi",
+	"holiday": "May 19, 2024",
+	"announcement": "Sahod day ng dalawa"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"message": "Saving successful.",
+			"holiday": "May 19, 2024",
+			"announcement": "Sahod day ng dalawa"
+		}
+	}
+}
+22:52:15 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:52:15 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			}
+		]
+	}
+}
+22:53:50 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:53:50 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			}
+		]
+	}
+}
+22:54:21 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:54:22 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			}
+		]
+	}
+}
+22:54:35 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:54:35 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			}
+		]
+	}
+}
+22:58:41 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:58:41 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			}
+		]
+	}
+}
+22:58:56 | [INFO] : /api/user/addBulletinMessage 
+body: {
+	"admin_username": "Arvi",
+	"holiday": "sdkfmsdkf",
+	"announcement": "sdfsdfdsf"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"message": "Saving successful.",
+			"holiday": "sdkfmsdkf",
+			"announcement": "sdfsdfdsf"
+		}
+	}
+}
+22:59:22 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+22:59:22 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 25, 2024 Birthday ni jomar",
+				"announcement": "Pwede kayong pumunta sa bahay nila jomar novaliches"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "May 19, 2024",
+				"announcement": "Sahod day ng dalawa"
+			},
+			{
+				"holiday": "sdkfmsdkf",
+				"announcement": "sdfsdfdsf"
+			}
+		]
+	}
+}
+23:05:07 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+23:05:07 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": []
+	}
+}
+23:06:27 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+23:06:27 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": []
+	}
+}
+23:06:30 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+23:06:30 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": []
+	}
+}
+23:06:33 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+23:06:33 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": []
+	}
+}
+23:13:17 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City",
+				"announcement": ""
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City",
+				"announcement": ""
+			}
+		]
+	}
+}
+23:16:33 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"announcement": "TESTING ANNOUNCEMENT"
+					},
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:24:29 | [INFO] : /api/passenger/updateBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"announcement": "TESTING ANNOUNCEMENT NI JOMAR"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"success": true,
+			"message": "Announcement updated successfully"
+		}
+	}
+}
+23:25:51 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"announcement": "TESTING ANNOUNCEMENT NI JOMAR"
+					},
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:25:52 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": []
+	}
+}
+23:26:08 | [INFO] : /api/user/addBulletinMessage 
+body: {
+	"admin_username": "Arvi",
+	"holiday": "Now",
+	"announcement": "Any"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"message": "Saving successful.",
+			"holiday": "Now",
+			"announcement": "Any"
+		}
+	}
+}
+23:26:09 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"announcement": "TESTING ANNOUNCEMENT NI JOMAR"
+					},
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:26:10 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			}
+		]
+	}
+}
+23:26:19 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"announcement": "TESTING ANNOUNCEMENT NI JOMAR"
+					},
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:26:19 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			}
+		]
+	}
+}
+23:26:39 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"announcement": "TESTING ANNOUNCEMENT NI JOMAR"
+					},
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:26:39 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			}
+		]
+	}
+}
+23:35:47 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"announcement": "TESTING ANNOUNCEMENT NI JOMAR"
+					},
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:35:47 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			}
+		]
+	}
+}
+23:36:34 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"announcement": "TESTING ANNOUNCEMENT NI JOMAR"
+					},
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:36:34 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			}
+		]
+	}
+}
+23:39:01 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:39:10 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:39:10 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			}
+		]
+	}
+}
+23:40:39 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:40:39 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			}
+		]
+	}
+}
+23:42:58 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:42:58 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			}
+		]
+	}
+}
+23:43:11 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:43:21 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:43:21 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			}
+		]
+	}
+}
+23:43:26 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:43:26 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			}
+		]
+	}
+}
+23:44:06 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+23:44:16 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+23:44:16 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			}
+		]
+	}
+}
+23:44:39 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+23:44:39 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			}
+		]
+	}
+}
+23:44:42 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+23:44:42 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			}
+		]
+	}
+}
+23:44:51 | [INFO] : /api/user/addBulletinMessage 
+body: {
+	"admin_username": "Arvi",
+	"holiday": "blablabalb",
+	"announcement": "sfsmflsdmflsd"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"message": "Saving successful.",
+			"holiday": "blablabalb",
+			"announcement": "sfsmflsdmflsd"
+		}
+	}
+}
+23:44:53 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+23:44:53 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			},
+			{
+				"holiday": "blablabalb",
+				"announcement": "sfsmflsdmflsd"
+			}
+		]
+	}
+}
+23:45:05 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+23:45:05 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			},
+			{
+				"holiday": "blablabalb",
+				"announcement": "sfsmflsdmflsd"
+			}
+		]
+	}
+}
+23:45:13 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+23:45:20 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"announcement": "TESTING ANNOUNCEMENT NI JOMAR"
+					},
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:45:23 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"api_result": {
+				"code": 200,
+				"data": [
+					{
+						"announcement": "TESTING ANNOUNCEMENT NI JOMAR"
+					},
+					{
+						"morning_pickup": "5:00AM",
+						"post_work_dropoff": "5:00PM",
+						"driver": "Kenneth Veg",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Quezon City"
+					},
+					{
+						"morning_pickup": "6:00 AM",
+						"post_work_dropoff": "10:00 PM",
+						"driver": "KennethPogi Pogitalagas",
+						"shuttle": "Toyota HiAce",
+						"passenger_group": "Manila City"
+					}
+				]
+			}
+		}
+	}
+}
+23:45:23 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			},
+			{
+				"holiday": "blablabalb",
+				"announcement": "sfsmflsdmflsd"
+			}
+		]
+	}
+}
+23:46:13 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Blumentritt Market": [
+					{
+						"firstName": "Emily",
+						"lastName": "Davis",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "William",
+						"lastName": "Garcia",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Oliver",
+						"lastName": "Mitchell",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					}
+				],
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Ava",
+						"lastName": "Hernandez",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Evelyn",
+						"lastName": "Perez",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Alexander",
+						"lastName": "Rodriguez",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Benjamin",
+						"lastName": "Lewis",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Harper",
+						"lastName": "Brown",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Amelia",
+						"lastName": "Hall",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Jacob",
+						"lastName": "King",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Daniel",
+						"lastName": "Young",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Avery",
+						"lastName": "Moore",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Aiden",
+						"lastName": "Parker",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Andrey",
+						"lastName": "Guerrero",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "KennethPogi",
+						"lastName": "Pogitalagas",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Alice",
+						"lastName": "Johnson",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Emma",
+						"lastName": "Brown",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Isabella",
+						"lastName": "Lee",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Charlotte",
+						"lastName": "White",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Liam",
+						"lastName": "Allen",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Ella",
+						"lastName": "Young",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Lucas",
+						"lastName": "Taylor",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Ernani",
+						"lastName": "Viaje",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "testingMuna",
+						"lastName": "testMuna",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Jane",
+						"lastName": "Smith",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Bob",
+						"lastName": "Williams",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Michael",
+						"lastName": "Johnson",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "James",
+						"lastName": "Young",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Young",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "Conchillo",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Symonasdasdasd",
+						"lastName": "Conchillo123123",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Mharc",
+						"lastName": "Hexadog",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "KennethPogi2",
+						"lastName": "Pogitalagas2",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "David",
+						"lastName": "Wilson",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Ethan",
+						"lastName": "Walker",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Matthew",
+						"lastName": "Lopez",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					}
+				],
+				"SM Sta. Mesa": [
+					{
+						"firstName": "Symon",
+						"lastName": "Cochinillo",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Sarah",
+						"lastName": "Miller",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "John",
+						"lastName": "Smith",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Daniel",
+						"lastName": "Taylor",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Grace",
+						"lastName": "Baker",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					}
+				],
+				"Taft Avenue, Manila": [
+					{
+						"firstName": "James",
+						"lastName": "Martinez",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Olivia",
+						"lastName": "Anderson",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Sophia",
+						"lastName": "Young",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Sophia",
+						"lastName": "Campbell",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Mason",
+						"lastName": "Moore",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "John",
+						"lastName": "Doe",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Emma",
+						"lastName": "Brown",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Noah",
+						"lastName": "Thomas",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Mia",
+						"lastName": "Hall",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Harper",
+						"lastName": "Harris",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Michael",
+						"lastName": "Green",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					}
+				]
+			}
+		}
+	}
+}
+23:46:35 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Blumentritt Market": [
+					{
+						"firstName": "Emily",
+						"lastName": "Davis",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "William",
+						"lastName": "Garcia",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Oliver",
+						"lastName": "Mitchell",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					}
+				],
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Ava",
+						"lastName": "Hernandez",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Evelyn",
+						"lastName": "Perez",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Alexander",
+						"lastName": "Rodriguez",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Benjamin",
+						"lastName": "Lewis",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Harper",
+						"lastName": "Brown",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Amelia",
+						"lastName": "Hall",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Jacob",
+						"lastName": "King",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Daniel",
+						"lastName": "Young",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Avery",
+						"lastName": "Moore",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					},
+					{
+						"firstName": "Aiden",
+						"lastName": "Parker",
+						"morningPickup": "6:00 AM",
+						"postWorkDropoff": "10:00 PM"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Andrey",
+						"lastName": "Guerrero",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "KennethPogi",
+						"lastName": "Pogitalagas",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Alice",
+						"lastName": "Johnson",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Emma",
+						"lastName": "Brown",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Isabella",
+						"lastName": "Lee",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Charlotte",
+						"lastName": "White",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Liam",
+						"lastName": "Allen",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Ella",
+						"lastName": "Young",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Lucas",
+						"lastName": "Taylor",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Ernani",
+						"lastName": "Viaje",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "testingMuna",
+						"lastName": "testMuna",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Jane",
+						"lastName": "Smith",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Bob",
+						"lastName": "Williams",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Michael",
+						"lastName": "Johnson",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "James",
+						"lastName": "Young",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Young",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "Conchillo",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Symonasdasdasd",
+						"lastName": "Conchillo123123",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Mharc",
+						"lastName": "Hexadog",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "KennethPogi2",
+						"lastName": "Pogitalagas2",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "David",
+						"lastName": "Wilson",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Ethan",
+						"lastName": "Walker",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Matthew",
+						"lastName": "Lopez",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					}
+				],
+				"SM Sta. Mesa": [
+					{
+						"firstName": "Symon",
+						"lastName": "Cochinillo",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Sarah",
+						"lastName": "Miller",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "John",
+						"lastName": "Smith",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Daniel",
+						"lastName": "Taylor",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Grace",
+						"lastName": "Baker",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					}
+				],
+				"Taft Avenue, Manila": [
+					{
+						"firstName": "James",
+						"lastName": "Martinez",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Olivia",
+						"lastName": "Anderson",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Sophia",
+						"lastName": "Young",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Sophia",
+						"lastName": "Campbell",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Mason",
+						"lastName": "Moore",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "John",
+						"lastName": "Doe",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Emma",
+						"lastName": "Brown",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Noah",
+						"lastName": "Thomas",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Mia",
+						"lastName": "Hall",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Harper",
+						"lastName": "Harris",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					},
+					{
+						"firstName": "Michael",
+						"lastName": "Green",
+						"morningPickup": "5:00AM",
+						"postWorkDropoff": "5:00PM"
+					}
+				]
+			}
+		}
+	}
+}
+23:49:07 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"code": 200,
+			"data": [
+				{
+					"announcement": "TESTING ANNOUNCEMENT NI JOMAR"
+				},
+				{
+					"morning_pickup": "5:00AM",
+					"post_work_dropoff": "5:00PM",
+					"driver": "Kenneth Veg",
+					"shuttle": "Toyota HiAce",
+					"passenger_group": "Quezon City"
+				},
+				{
+					"morning_pickup": "6:00 AM",
+					"post_work_dropoff": "10:00 PM",
+					"driver": "KennethPogi Pogitalagas",
+					"shuttle": "Toyota HiAce",
+					"passenger_group": "Manila City"
+				}
+			]
+		}
+	}
+}
+23:50:07 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"announcement": "TESTING ANNOUNCEMENT NI JOMAR"
+			},
+			{
+				"morning_pickup": "5:00AM",
+				"post_work_dropoff": "5:00PM",
+				"driver": "Kenneth Veg",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Quezon City"
+			},
+			{
+				"morning_pickup": "6:00 AM",
+				"post_work_dropoff": "10:00 PM",
+				"driver": "KennethPogi Pogitalagas",
+				"shuttle": "Toyota HiAce",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+23:50:44 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "TESTING ANNOUNCEMENT NI JOMAR",
+			"passengerList": [
+				{
+					"morning_pickup": "5:00AM",
+					"post_work_dropoff": "5:00PM",
+					"driver": "Kenneth Veg",
+					"shuttle": "Toyota HiAce",
+					"passenger_group": "Quezon City"
+				},
+				{
+					"morning_pickup": "6:00 AM",
+					"post_work_dropoff": "10:00 PM",
+					"driver": "KennethPogi Pogitalagas",
+					"shuttle": "Toyota HiAce",
+					"passenger_group": "Manila City"
+				}
+			]
+		}
+	}
+}
+23:53:21 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "TESTING ANNOUNCEMENT NI JOMAR",
+			"passengerList": [
+				{
+					"morning_pickup": "5:00AM",
+					"post_work_dropoff": "5:00PM",
+					"driver": "Kenneth Veg",
+					"shuttle": "Toyota HiAce",
+					"passenger_group": "Quezon City"
+				},
+				{
+					"morning_pickup": "6:00 AM",
+					"post_work_dropoff": "10:00 PM",
+					"driver": "KennethPogi Pogitalagas",
+					"shuttle": "Toyota HiAce",
+					"passenger_group": "Manila City"
+				}
+			]
+		}
+	}
+}
+23:53:21 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "Now",
+				"announcement": "Any"
+			},
+			{
+				"holiday": "blablabalb",
+				"announcement": "sfsmflsdmflsd"
+			}
+		]
+	}
+}

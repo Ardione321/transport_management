@@ -1,6 +1,8 @@
 // Import necessary modules and models
 const { User, UserRoles } = require("../../models");
-
+const passenger_group = require("../../models/passenger_group");
+const mysql = require('mysql2/promise');
+const { connectionConfig } = require('../model_mysql/database'); // Import the connection configuration
 // Initialize the database utility
 let dbUtil = null;
 
@@ -100,20 +102,30 @@ module.exports = {
         }
     },
 
-    checkIfUserExisting: async(username, first_name, last_name) => {
+    checkIfExistingSchedule: async (date, passenger_group_id) => {
+        let connection;
         try {
-            const result = await User.findOne({
-                attributes:['username', 'first_name', 'last_name'],
-                where: { username: username, first_name: first_name, last_name: last_name}
-            })
-
-            if(result) {
-                const error = new Error('User already exist!');
-                error.code = 401;
-                return true;
-            }
+            connection = await mysql.createConnection(connectionConfig);
+    
+            // Ensure the date is in YYYY-MM-DD format
+            const formattedDate = new Date(date).toISOString().split('T')[0];
+    
+            const query = `
+                SELECT 1 FROM \`schedule\`
+                WHERE date = ? AND passenger_group_id = ?;
+            `;
+    
+            const [results] = await connection.query(query, [formattedDate, passenger_group_id]);
+    
+            // Return true if at least one row is returned, otherwise false
+            return results.length > 0;
         } catch (error) {
-            throw error;
+            console.error('Error checking if schedule exists:', error);
+            return false;
+        } finally {
+            if (connection) {
+                await connection.end();
+            }
         }
-    }
+    },
 };

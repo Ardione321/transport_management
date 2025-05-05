@@ -1,0 +1,71 @@
+21:17:54 | [API]: http://transport-management-r02p.onrender.com/api/user/login 
+"{
+        "username": "Arvi123",
+        "password": "admin123"
+      }"
+21:17:54 | [INFO] : /api/user/login 
+body: {
+	"username": "Arvi123",
+	"password": "admin123"
+} 
+response: {
+	"api_result": {
+		"code": "ERR_INVALID_PROTOCOL",
+		"message": "Protocol \"http:\" not supported. Expected \"https:\""
+	}
+}
+21:20:52 | [API]: https://transport-management-r02p.onrender.com/api/user/login 
+"{
+        "username": "Arvi123",
+        "password": "admin123"
+      }"
+21:20:53 | [INFO] : /api/user/login 
+body: {
+	"username": "Arvi123",
+	"password": "admin123"
+} 
+response: {
+	"api_result": {
+		"code": 404,
+		"message": "Invalid username or password."
+	}
+}
+21:20:53 | [API]: https://transport-management-r02p.onrender.com/api/user/login 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Bad Request</pre>
+</body>
+</html>
+
+21:31:15 | [API]: https://transport-management-r02p.onrender.com/api/user/login 
+[object Object]
+21:31:17 | [API]: https://transport-management-r02p.onrender.com/api/user/login 
+{
+  "api_result": {
+    "code": 200,
+    "data": {
+      "user_details": {
+        "first_name": "Arvi",
+        "last_name": "David",
+        "username": "Arvi123",
+        "user_role": 1
+      }
+    }
+  }
+}
+21:31:17 | [INFO] : /api/user/login 
+body: {
+	"username": "Arvi123",
+	"password": "admin123"
+} 
+response: {
+	"api_result": {
+		"code": 404,
+		"message": "Invalid username or password."
+	}
+}

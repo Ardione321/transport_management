@@ -1,5 +1,12 @@
 // Import necessary modules and functions
-const { loginUser, registerUser, addBulletinMessage, getAllDriver, updateDriverByDriverName, getAllPassenger, updatePassengerByUserName, getDriverByUserName,  getPassengerByUserName } = require("./service");
+const { 
+    getPassengerList, 
+    getPassengerGroup, 
+    createSchedule, 
+    getPassengerListGroupById, 
+    getBulletinAnnouncement, 
+    getBulletinHoliday,
+    updateBulletinAnnouncement } = require("./service");
 const {
     sendErrorResponse,
     sendSuccessfulResponse,
@@ -10,11 +17,11 @@ const {
  * Controller functions for user authentication and token management.
  */
 module.exports = {
-    loginUser: async (req, res) => {
+    getPassengerList: async (req, res) => {
         if (req.body) {
             try {
                 const body = req.body;
-                const result = await loginUser(body);
+                const result = await getPassengerList(body);
                 // Send a successful response
                 return sendSuccessfulResponse(req, res, result, true);
             } catch (e) {
@@ -27,11 +34,11 @@ module.exports = {
         }
     },
 
-    registerUser: async (req, res) => {
+    getPassengerGroup: async (req, res) => {
         if (req.body) {
             try {
                 const body = req.body;
-                const result = await registerUser(body);
+                const result = await getPassengerGroup(body);
                 // Send a successful response
                 return sendSuccessfulResponse(req, res, result, true);
             } catch (e) {
@@ -44,11 +51,11 @@ module.exports = {
         }
     },
 
-    addBulletinMessage: async (req, res) => {
+    createSchedule: async (req, res) => {
         if (req.body) {
             try {
                 const body = req.body;
-                const result = await addBulletinMessage(body);
+                const result = await createSchedule(body);
                 // Send a successful response
                 return sendSuccessfulResponse(req, res, result, true);
             } catch (e) {
@@ -61,11 +68,11 @@ module.exports = {
         }
     },
 
-    getAllDriver: async (req, res) => {
+    getPassengerListGroupById: async (req, res) => {
         if (req.body) {
             try {
                 const body = req.body;
-                const result = await getAllDriver(body);
+                const result = await getPassengerListGroupById(body);
                 // Send a successful response
                 return sendSuccessfulResponse(req, res, result, true);
             } catch (e) {
@@ -78,11 +85,11 @@ module.exports = {
         }
     },
 
-    updateDriverByDriverName: async (req, res) => {
+    getBulletinAnnouncement: async (req, res) => {
         if (req.body) {
             try {
                 const body = req.body;
-                const result = await updateDriverByDriverName(body);
+                const result = await getBulletinAnnouncement(body);
                 // Send a successful response
                 return sendSuccessfulResponse(req, res, result, true);
             } catch (e) {
@@ -95,11 +102,11 @@ module.exports = {
         }
     },
 
-    getAllPassenger: async (req, res) => {
+    getBulletinHoliday: async (req, res) => {
         if (req.body) {
             try {
                 const body = req.body;
-                const result = await getAllPassenger(body);
+                const result = await getBulletinHoliday(body);
                 // Send a successful response
                 return sendSuccessfulResponse(req, res, result, true);
             } catch (e) {
@@ -112,11 +119,11 @@ module.exports = {
         }
     },
 
-    updatePassengerByUserName: async (req, res) => {
+    updateBulletinAnnouncement: async (req, res) => {
         if (req.body) {
             try {
                 const body = req.body;
-                const result = await updatePassengerByUserName(body);
+                const result = await updateBulletinAnnouncement(body);
                 // Send a successful response
                 return sendSuccessfulResponse(req, res, result, true);
             } catch (e) {
@@ -128,39 +135,4 @@ module.exports = {
             return sendBadRequestResponse(res);
         }
     },
-
-    getDriverByUserName: async (req, res) => {
-        if (req.body) {
-            try {
-                const body = req.body;
-                const result = await getDriverByUserName(body);
-                // Send a successful response
-                return sendSuccessfulResponse(req, res, result, true);
-            } catch (e) {
-                // Handle and send an error response in case of an error
-                return sendErrorResponse(e, req, res);
-            }
-        } else {
-            // Send a bad request response if the request body is missing
-            return sendBadRequestResponse(res);
-        }
-    },
-
-    getPassengerByUserName: async (req, res) => {
-        if (req.body) {
-            try {
-                const body = req.body;
-                const result = await getPassengerByUserName(body);
-                // Send a successful response
-                return sendSuccessfulResponse(req, res, result, true);
-            } catch (e) {
-                // Handle and send an error response in case of an error
-                return sendErrorResponse(e, req, res);
-            }
-        } else {
-            // Send a bad request response if the request body is missing
-            return sendBadRequestResponse(res);
-        }
-    },
-    
 };

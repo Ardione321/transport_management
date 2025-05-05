@@ -1,0 +1,293 @@
+21:04:59 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+21:05:00 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-29"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				]
+			}
+		}
+	}
+}
+21:05:12 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-29"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				]
+			}
+		}
+	}
+}
+21:05:15 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-29"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				]
+			}
+		}
+	}
+}
+21:12:36 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "EARLY OUT!\n\nPAGASA just issued an Orange rainfall warning, prompting and earlier shuttle departure. HR personnel will visit your area for further instructions.",
+			"passengerList": []
+		}
+	}
+}
+21:12:36 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+21:12:44 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-29"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "04:53",
+						"postWorkDropoff": "17:53"
+					}
+				]
+			}
+		}
+	}
+}
+21:12:46 | [INFO] : /api/shuttles/selectAllShuttles 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"id": 1,
+				"name": "Hi-Ace",
+				"model": "Toyota HiAce",
+				"plateNumber": "ABC1234",
+				"color": "White",
+				"sitingCapacity": "15",
+				"coding": "Monday"
+			},
+			{
+				"id": 2,
+				"name": "Urvan",
+				"model": "Nissan",
+				"plateNumber": "ABC1254",
+				"color": "Red",
+				"sitingCapacity": "10",
+				"coding": "Monday"
+			},
+			{
+				"id": 3,
+				"name": "Traveller",
+				"model": "Foton",
+				"plateNumber": "HEX-2456",
+				"color": "White",
+				"sitingCapacity": "12",
+				"coding": "Wednesday"
+			}
+		]
+	}
+}

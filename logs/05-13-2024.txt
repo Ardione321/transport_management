@@ -1,0 +1,287 @@
+24:06:32 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Ernani",
+				"lastName": "Viaje"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "COA, Quezon City",
+				"firstName": "Andrey",
+				"lastName": "Guerrero"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Q. Ave Quezon City",
+				"firstName": "Mharc",
+				"lastName": "Hexadog"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Zamora St. Quirino",
+				"firstName": "John",
+				"lastName": "Doe"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Jane",
+				"lastName": "Smith"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "COA, Quezon City",
+				"firstName": "Alice",
+				"lastName": "Johnson"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Bob",
+				"lastName": "Williams"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Zamora St. Quirino",
+				"firstName": "Emma",
+				"lastName": "Brown"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Michael",
+				"lastName": "Johnson"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "SM Sta. Mesa",
+				"firstName": "Sarah",
+				"lastName": "Miller"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Q. Ave Quezon City",
+				"firstName": "David",
+				"lastName": "Wilson"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Taft Avenue, Manila",
+				"firstName": "James",
+				"lastName": "Martinez"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "SM Sta. Mesa",
+				"firstName": "John",
+				"lastName": "Smith"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "COA, Quezon City",
+				"firstName": "Emma",
+				"lastName": "Brown"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "SM Sta. Mesa",
+				"firstName": "Daniel",
+				"lastName": "Taylor"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Taft Avenue, Manila",
+				"firstName": "Olivia",
+				"lastName": "Anderson"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Zamora St. Quirino",
+				"firstName": "Noah",
+				"lastName": "Thomas"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Taft Avenue, Manila",
+				"firstName": "Sophia",
+				"lastName": "Young"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "COA, Quezon City",
+				"firstName": "Isabella",
+				"lastName": "Lee"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Q. Ave Quezon City",
+				"firstName": "Ethan",
+				"lastName": "Walker"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Zamora St. Quirino",
+				"firstName": "Mia",
+				"lastName": "Hall"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "James",
+				"lastName": "Young"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "COA, Quezon City",
+				"firstName": "Charlotte",
+				"lastName": "White"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "COA, Quezon City",
+				"firstName": "Liam",
+				"lastName": "Allen"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "SM Sta. Mesa",
+				"firstName": "Grace",
+				"lastName": "Baker"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Zamora St. Quirino",
+				"firstName": "Harper",
+				"lastName": "Harris"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Zamora St. Quirino",
+				"firstName": "Michael",
+				"lastName": "Green"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Taft Avenue, Manila",
+				"firstName": "Sophia",
+				"lastName": "Campbell"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "COA, Quezon City",
+				"firstName": "Ella",
+				"lastName": "Young"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Q. Ave Quezon City",
+				"firstName": "Matthew",
+				"lastName": "Lopez"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Sofia",
+				"lastName": "Young"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "COA, Quezon City",
+				"firstName": "Lucas",
+				"lastName": "Taylor"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Taft Avenue, Manila",
+				"firstName": "Mason",
+				"lastName": "Moore"
+			},
+			{
+				"passengerGroup": "Manila Cty",
+				"pickupDropoff": "Blumentritt Market",
+				"firstName": "Emily",
+				"lastName": "Davis"
+			},
+			{
+				"passengerGroup": "Manila Cty",
+				"pickupDropoff": "Doroteo Jose LRT Station",
+				"firstName": "Ava",
+				"lastName": "Hernandez"
+			},
+			{
+				"passengerGroup": "Manila Cty",
+				"pickupDropoff": "Blumentritt Market",
+				"firstName": "William",
+				"lastName": "Garcia"
+			},
+			{
+				"passengerGroup": "Manila Cty",
+				"pickupDropoff": "Monumento",
+				"firstName": "Alexander",
+				"lastName": "Rodriguez"
+			},
+			{
+				"passengerGroup": "Manila Cty",
+				"pickupDropoff": "Monumento",
+				"firstName": "Benjamin",
+				"lastName": "Lewis"
+			},
+			{
+				"passengerGroup": "Manila Cty",
+				"pickupDropoff": "UST",
+				"firstName": "Amelia",
+				"lastName": "Hall"
+			},
+			{
+				"passengerGroup": "Manila Cty",
+				"pickupDropoff": "UST",
+				"firstName": "Jacob",
+				"lastName": "King"
+			},
+			{
+				"passengerGroup": "Manila Cty",
+				"pickupDropoff": "UST",
+				"firstName": "Daniel",
+				"lastName": "Young"
+			},
+			{
+				"passengerGroup": "Manila Cty",
+				"pickupDropoff": "Blumentritt Market",
+				"firstName": "Oliver",
+				"lastName": "Mitchell"
+			},
+			{
+				"passengerGroup": "Manila Cty",
+				"pickupDropoff": "UST",
+				"firstName": "Avery",
+				"lastName": "Moore"
+			},
+			{
+				"passengerGroup": "Manila Cty",
+				"pickupDropoff": "UST",
+				"firstName": "Aiden",
+				"lastName": "Parker"
+			},
+			{
+				"passengerGroup": "Manila Cty",
+				"pickupDropoff": "Monumento",
+				"firstName": "Harper",
+				"lastName": "Brown"
+			},
+			{
+				"passengerGroup": "Manila Cty",
+				"pickupDropoff": "Doroteo Jose LRT Station",
+				"firstName": "Evelyn",
+				"lastName": "Perez"
+			}
+		]
+	}
+}

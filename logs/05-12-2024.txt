@@ -1,0 +1,629 @@
+22:41:27 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Jomar123"
+} 
+response: {
+	"api_result": {
+		"code": 401,
+		"message": "User not found!"
+	}
+}
+22:41:44 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "arvi123"
+} 
+response: {
+	"api_result": {
+		"code": 401,
+		"message": "User not found!"
+	}
+}
+22:41:46 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "arvi123"
+} 
+response: {
+	"api_result": {
+		"code": 401,
+		"message": "User not found!"
+	}
+}
+22:41:58 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "PassengerGroup is not defined",
+		"stack": "ReferenceError: PassengerGroup is not defined\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:25:40)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+22:42:31 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "Pickup_dropoff is not associated to User!",
+		"stack": "SequelizeEagerLoadingError: Pickup_dropoff is not associated to User!\n    at Function._getIncludedAssociation (C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\model.js:565:13)\n    at Function._validateIncludedElement (C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\model.js:502:53)\n    at C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\model.js:421:37\n    at Array.map (<anonymous>)\n    at Function._validateIncludedElements (C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\model.js:417:39)\n    at Function.findAll (C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\model.js:1124:12)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:17:27)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+22:44:31 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "Passenger_group is not associated to Pickup_dropoff!",
+		"stack": "SequelizeEagerLoadingError: Passenger_group is not associated to Pickup_dropoff!\n    at Function._getIncludedAssociation (C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\model.js:565:13)\n    at Function._validateIncludedElement (C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\model.js:502:53)\n    at C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\model.js:421:37\n    at Array.map (<anonymous>)\n    at Function._validateIncludedElements (C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\model.js:417:39)\n    at Function._validateIncludedElement (C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\model.js:557:38)\n    at C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\model.js:421:37\n    at Array.map (<anonymous>)\n    at Function._validateIncludedElements (C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\model.js:417:39)\n    at Function.findAll (C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\model.js:1124:12)"
+	}
+}
+22:46:05 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "Cannot read property 'passenger_group' of undefined",
+		"stack": "TypeError: Cannot read property 'passenger_group' of undefined\n    at C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:35:53\n    at Array.map (<anonymous>)\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:34:41)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+22:51:50 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\"user\" u\n                INNER JOIN \"Pickup_dropoff\" pd ON u.pickup_dropoff_i...' at line 2",
+		"stack": "Error\n    at Query.run (C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:26:41)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+22:52:55 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\"user\" u\n                INNER JOIN \"pickup_dropoff\" pd ON u.pickup_dropoff_i...' at line 2",
+		"stack": "Error\n    at Query.run (C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:26:41)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+22:54:34 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "results.map is not a function",
+		"stack": "TypeError: results.map is not a function\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:31:43)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+22:55:03 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "results.map is not a function",
+		"stack": "TypeError: results.map is not a function\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:31:43)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+22:56:44 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"passengerGroup": "Quezon City",
+			"pickupDropoff": "Litex, Quezon City",
+			"firstName": "Ernani",
+			"lastName": "Viaje"
+		}
+	}
+}
+23:01:44 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "results.map is not a function",
+		"stack": "TypeError: results.map is not a function\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:32:43)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:02:08 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"passengerGroup": "Quezon City",
+			"pickupDropoff": "Litex, Quezon City",
+			"firstName": "Ernani",
+			"lastName": "Viaje"
+		}
+	}
+}
+23:05:06 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "results.map is not a function",
+		"stack": "TypeError: results.map is not a function\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:32:39)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:07:01 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "results is not iterable",
+		"stack": "TypeError: results is not iterable\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:32:34)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:08:11 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Ernani",
+				"lastName": "Viaje"
+			}
+		]
+	}
+}
+23:08:59 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "results is not iterable",
+		"stack": "TypeError: results is not iterable\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:32:34)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:09:35 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Ernani",
+				"lastName": "Viaje"
+			}
+		]
+	}
+}
+23:10:40 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\"user\" u\n                INNER JOIN \"pickup_dropoff\" pd ON u.pickup_dropoff_i...' at line 2",
+		"stack": "Error\n    at Query.run (C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\xampp\\htdocs\\transport_management\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:26:41)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:11:19 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "results.map is not a function",
+		"stack": "TypeError: results.map is not a function\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:31:43)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:13:32 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"passengerGroup": "Quezon City",
+			"pickupDropoff": "Litex, Quezon City",
+			"firstName": "Ernani",
+			"lastName": "Viaje"
+		}
+	}
+}
+23:13:48 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"passengerGroup": "Quezon City",
+			"pickupDropoff": "Litex, Quezon City",
+			"firstName": "Ernani",
+			"lastName": "Viaje"
+		}
+	}
+}
+23:15:05 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Ernani",
+				"lastName": "Viaje"
+			}
+		]
+	}
+}
+23:17:29 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Ernani",
+				"lastName": "Viaje"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "COA, Quezon City",
+				"firstName": "Andrey",
+				"lastName": "Guerrero"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Q. Ave Quezon City",
+				"firstName": "Mharc",
+				"lastName": "Hexadog"
+			}
+		]
+	}
+}
+23:20:56 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Ernani",
+				"lastName": "Viaje"
+			}
+		]
+	}
+}
+23:21:26 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "transaction is not defined",
+		"stack": "ReferenceError: transaction is not defined\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:29:17)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:21:48 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Ernani",
+				"lastName": "Viaje"
+			}
+		]
+	}
+}
+23:24:41 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Ernani",
+				"lastName": "Viaje"
+			}
+		]
+	}
+}
+23:25:18 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Ernani",
+				"lastName": "Viaje"
+			}
+		]
+	}
+}
+23:32:19 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "(intermediate value) is not iterable",
+		"stack": "TypeError: (intermediate value) is not iterable\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:25:31)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:34:16 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "(intermediate value) is not iterable",
+		"stack": "TypeError: (intermediate value) is not iterable\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:19:31)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:36:00 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "results.map is not a function",
+		"stack": "TypeError: results.map is not a function\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:27:52)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:36:22 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "results.map is not a function",
+		"stack": "TypeError: results.map is not a function\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:27:52)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:38:01 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "connection.beginTransaction is not a function",
+		"stack": "TypeError: connection.beginTransaction is not a function\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:10:30)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:39:16 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "connection.query is not a function",
+		"stack": "TypeError: connection.query is not a function\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:17:48)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:42:12 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "connection.query is not a function",
+		"stack": "TypeError: connection.query is not a function\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:17:48)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:42:31 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "connection.query is not a function",
+		"stack": "TypeError: connection.query is not a function\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:17:48)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:43:56 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "connection.execute is not a function",
+		"stack": "TypeError: connection.execute is not a function\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:17:53)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:44:23 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 400,
+		"message": "Cannot read property 'query' of undefined",
+		"stack": "TypeError: Cannot read property 'query' of undefined\n    at getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\service.js:17:64)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getPassengerList (C:\\xampp\\htdocs\\transport_management\\api\\passenger\\controller.js:17:32)"
+	}
+}
+23:45:59 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Ernani",
+				"lastName": "Viaje"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "COA, Quezon City",
+				"firstName": "Andrey",
+				"lastName": "Guerrero"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Q. Ave Quezon City",
+				"firstName": "Mharc",
+				"lastName": "Hexadog"
+			}
+		]
+	}
+}
+23:48:35 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Ernani",
+				"lastName": "Viaje"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "COA, Quezon City",
+				"firstName": "Andrey",
+				"lastName": "Guerrero"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Q. Ave Quezon City",
+				"firstName": "Mharc",
+				"lastName": "Hexadog"
+			}
+		]
+	}
+}
+23:48:54 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Ernani",
+				"lastName": "Viaje"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "COA, Quezon City",
+				"firstName": "Andrey",
+				"lastName": "Guerrero"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Q. Ave Quezon City",
+				"firstName": "Mharc",
+				"lastName": "Hexadog"
+			}
+		]
+	}
+}
+23:49:47 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Litex, Quezon City",
+				"firstName": "Ernani",
+				"lastName": "Viaje"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "COA, Quezon City",
+				"firstName": "Andrey",
+				"lastName": "Guerrero"
+			},
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoff": "Q. Ave Quezon City",
+				"firstName": "Mharc",
+				"lastName": "Hexadog"
+			}
+		]
+	}
+}

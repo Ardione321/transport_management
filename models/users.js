@@ -1,14 +1,10 @@
+// user.js
 'use strict';
 const { Sequelize, Model, DataTypes } = require('sequelize');
 module.exports = (sequelize) => {
   class User extends Model {
-    /**
-     * Helper method for defining associations.
-     * This method is not a part of Sequelize lifecycle.
-     * The `models/index` file will call this method automatically.
-     */
     static associate(models) {
-      // define association here
+      User.belongsTo(models.Pickup_dropoff, { foreignKey: 'pickup_dropoff_id' }); // Define association
     }
   };
   User.init({
@@ -17,7 +13,11 @@ module.exports = (sequelize) => {
     last_name: { type: DataTypes.STRING(50), allowNull: false },
     username: { type: DataTypes.STRING(50), allowNull: false },
     password: { type: DataTypes.STRING(100), allowNull: false },
-    user_role: { type: DataTypes.INTEGER(1), allowNull: false }
+    user_role: { type: DataTypes.INTEGER(1), allowNull: false },
+    mobile_number: { type: DataTypes.STRING(50), allowNull: false },
+    email_add: { type: DataTypes.STRING(50), allowNull: false },
+    passenger_group_id: { type: DataTypes.INTEGER(11), allowNull: false },
+    pickup_dropoff_id: { type: DataTypes.INTEGER(11), allowNull: false } // Add foreign key
   }, {
     sequelize,
     timestamps: false,
