@@ -1,0 +1,566 @@
+11:58:13 | [INFO] : /api/passenger/getScheduleSummaryReport 
+body: {
+	"admin_username": "ernani.viaje",
+	"startDate": "2025-05-01",
+	"endDate": "2025-05-31"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"scheduleId": 95,
+				"date": "2025-05-01T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 64,
+				"date": "2025-05-01T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 96,
+				"date": "2025-05-02T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 65,
+				"date": "2025-05-02T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 97,
+				"date": "2025-05-04T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 66,
+				"date": "2025-05-04T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 98,
+				"date": "2025-05-05T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 67,
+				"date": "2025-05-05T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 99,
+				"date": "2025-05-06T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 68,
+				"date": "2025-05-06T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 100,
+				"date": "2025-05-07T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 69,
+				"date": "2025-05-07T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 101,
+				"date": "2025-05-08T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 70,
+				"date": "2025-05-08T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 102,
+				"date": "2025-05-09T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 71,
+				"date": "2025-05-09T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 103,
+				"date": "2025-05-12T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 72,
+				"date": "2025-05-12T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 104,
+				"date": "2025-05-13T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 73,
+				"date": "2025-05-13T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 105,
+				"date": "2025-05-14T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 74,
+				"date": "2025-05-14T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 106,
+				"date": "2025-05-15T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 75,
+				"date": "2025-05-15T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 107,
+				"date": "2025-05-16T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 76,
+				"date": "2025-05-16T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 343,
+				"date": "2025-05-17T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "Emilio Ramos",
+				"shuttle": "Foton",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 342,
+				"date": "2025-05-17T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "Ardi David",
+				"shuttle": "Toyota HiAce",
+				"totalPassengers": 5,
+				"boardedPassengers": 2
+			},
+			{
+				"scheduleId": 108,
+				"date": "2025-05-18T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 77,
+				"date": "2025-05-18T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 1
+			},
+			{
+				"scheduleId": 109,
+				"date": "2025-05-19T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 78,
+				"date": "2025-05-19T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 110,
+				"date": "2025-05-20T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 79,
+				"date": "2025-05-20T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 111,
+				"date": "2025-05-21T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 80,
+				"date": "2025-05-21T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 112,
+				"date": "2025-05-22T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 81,
+				"date": "2025-05-22T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 113,
+				"date": "2025-05-23T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 82,
+				"date": "2025-05-23T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 114,
+				"date": "2025-05-25T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 83,
+				"date": "2025-05-25T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 115,
+				"date": "2025-05-26T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 84,
+				"date": "2025-05-26T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 116,
+				"date": "2025-05-27T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 85,
+				"date": "2025-05-27T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 117,
+				"date": "2025-05-28T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 86,
+				"date": "2025-05-28T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "Ardi David",
+				"shuttle": "Urvan",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 118,
+				"date": "2025-05-29T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 87,
+				"date": "2025-05-29T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 119,
+				"date": "2025-05-30T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 88,
+				"date": "2025-05-30T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			}
+		]
+	}
+}
+11:58:47 | [INFO] : /api/passenger/getScheduleSummaryReport 
+body: {
+	"admin_username": "ernani.viaje",
+	"startDate": "2025-05-17",
+	"endDate": "2025-05-20"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"scheduleId": 107,
+				"date": "2025-05-16T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 76,
+				"date": "2025-05-16T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 343,
+				"date": "2025-05-17T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "Emilio Ramos",
+				"shuttle": "Foton",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 342,
+				"date": "2025-05-17T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "Ardi David",
+				"shuttle": "Toyota HiAce",
+				"totalPassengers": 5,
+				"boardedPassengers": 2
+			},
+			{
+				"scheduleId": 108,
+				"date": "2025-05-18T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 77,
+				"date": "2025-05-18T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 1
+			},
+			{
+				"scheduleId": 109,
+				"date": "2025-05-19T16:00:00.000Z",
+				"passengerGroup": "Manila City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 4,
+				"boardedPassengers": 0
+			},
+			{
+				"scheduleId": 78,
+				"date": "2025-05-19T16:00:00.000Z",
+				"passengerGroup": "Quezon City",
+				"driver": "TBD",
+				"shuttle": "TBD",
+				"totalPassengers": 5,
+				"boardedPassengers": 0
+			}
+		]
+	}
+}

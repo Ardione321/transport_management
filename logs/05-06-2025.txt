@@ -1,0 +1,5424 @@
+12:46:06 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+13:01:28 | [INFO] : /api/shuttles/selectAllShuttles 
+body: {
+	"admin_username": "admin123"
+} 
+response: {
+	"api_result": {
+		"code": 401,
+		"message": "User not found!"
+	}
+}
+13:01:38 | [INFO] : /api/shuttles/selectAllShuttles 
+body: {
+	"admin_username": "ernani.viaje"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"id": 1,
+				"name": "Hi-Ace",
+				"model": "Toyota HiAce",
+				"plateNumber": "ABC1234",
+				"color": "White",
+				"sitingCapacity": "15",
+				"coding": "Monday"
+			},
+			{
+				"id": 2,
+				"name": "Urvan",
+				"model": "Nissan",
+				"plateNumber": "ABC1254",
+				"color": "Red",
+				"sitingCapacity": "10",
+				"coding": "Monday"
+			},
+			{
+				"id": 3,
+				"name": "Traveller",
+				"model": "Foton",
+				"plateNumber": "HEX-2456",
+				"color": "White",
+				"sitingCapacity": "12",
+				"coding": "Wednesday"
+			}
+		]
+	}
+}
+13:02:27 | [INFO] : /api/shuttles/registerShuttles 
+body: {
+	"admin_username": "admin123",
+	"name": "Shuttle Alpha",
+	"model": "Toyota Hiace",
+	"plate_number": "ABC-1234",
+	"color": "White",
+	"siting_capacity": "15",
+	"coding": "Monday"
+} 
+response: {
+	"api_result": {
+		"code": 401,
+		"message": "User not found!"
+	}
+}
+13:02:35 | [INFO] : /api/shuttles/registerShuttles 
+body: {
+	"admin_username": "ernani.viaje",
+	"name": "Shuttle Alpha",
+	"model": "Toyota Hiace",
+	"plate_number": "ABC-1234",
+	"color": "White",
+	"siting_capacity": "15",
+	"coding": "Monday"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"message": "Saving successful.",
+			"model": "Toyota Hiace",
+			"plate_number": "ABC-1234",
+			"siting_capacity": "15"
+		}
+	}
+}
+13:02:59 | [INFO] : /api/shuttles/updateShuttles 
+body: {
+	"admin_username": "admin123",
+	"name": "Shuttle Alpha",
+	"model": "Toyota Hiace Super Grandia",
+	"plate_number": "ABC-1234",
+	"color": "Black",
+	"siting_capacity": "14",
+	"coding": "Wednesday"
+} 
+response: {
+	"api_result": {
+		"code": 401,
+		"message": "User not found!"
+	}
+}
+13:03:07 | [INFO] : /api/shuttles/updateShuttles 
+body: {
+	"admin_username": "ernani.viaje",
+	"name": "Shuttle Alpha",
+	"model": "Toyota Hiace Super Grandia",
+	"plate_number": "ABC-1234",
+	"color": "Black",
+	"siting_capacity": "14",
+	"coding": "Wednesday"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"message": "Update successful.",
+			"model": "Toyota Hiace Super Grandia",
+			"plate_number": "ABC-1234",
+			"siting_capacity": "14"
+		}
+	}
+}
+13:04:07 | [INFO] : /api/user/getAllPassenger 
+body: {
+	"admin_username": "ernani.viaje"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passenger_name": "Luisa Reyes",
+				"mobile_number": 912345673,
+				"email_add": "luisa.reyes2@eviaje.app",
+				"address": "Litex, Quezon City",
+				"passenger_group": "Quezon City",
+				"username": "luisa.reyes"
+			},
+			{
+				"passenger_name": "Miguel Santos",
+				"mobile_number": 917545254,
+				"email_add": "miguel.santos@eviaje.app",
+				"address": "Zamora St. Quirino",
+				"passenger_group": "Quezon City",
+				"username": "miguel.santos"
+			},
+			{
+				"passenger_name": "Jomar Delacruz",
+				"mobile_number": 2147483647,
+				"email_add": "jomardelacruz11@gmail.com11",
+				"address": "Doroteo Jose LRT Station",
+				"passenger_group": "Manila City",
+				"username": "jomar"
+			},
+			{
+				"passenger_name": "Elena Bennet",
+				"mobile_number": 2147483647,
+				"email_add": "elena.bennet@eviaje.app",
+				"address": "Zamora St. Quirino",
+				"passenger_group": "Quezon City",
+				"username": "elena.bennet"
+			},
+			{
+				"passenger_name": "Maxwell Hayes",
+				"mobile_number": 2147483647,
+				"email_add": "maxwell.hayes@eviaje.app",
+				"address": "Q. Ave Quezon City",
+				"passenger_group": "Quezon City",
+				"username": "maxwell.hayes"
+			},
+			{
+				"passenger_name": "Symon legaspi",
+				"mobile_number": 90909131,
+				"email_add": "symon@gmail.com",
+				"address": "Doroteo Jose LRT Station",
+				"passenger_group": "Manila City",
+				"username": "symon"
+			},
+			{
+				"passenger_name": "Isabella Cruz",
+				"mobile_number": 2147483647,
+				"email_add": "isabella.cruz@eviaje.app",
+				"address": "Monumento",
+				"passenger_group": "Manila City",
+				"username": "isabella.cruz"
+			},
+			{
+				"passenger_name": "Diego Ramos",
+				"mobile_number": 2147483647,
+				"email_add": "diego.ramos@eviaje.app",
+				"address": "Monumento",
+				"passenger_group": "Manila City",
+				"username": "diego.ramos"
+			},
+			{
+				"passenger_name": "Sofia Fernandez",
+				"mobile_number": 2147483647,
+				"email_add": "sofia.fernandez@eviaje.app",
+				"address": "Monumento",
+				"passenger_group": "Manila City",
+				"username": "sofia.fernandez"
+			},
+			{
+				"passenger_name": "Lorenzo Torres",
+				"mobile_number": 917345234,
+				"email_add": "lorenzo.torres@eviaje.app",
+				"address": "UST",
+				"passenger_group": "Manila City",
+				"username": "lorenzo.torres"
+			},
+			{
+				"passenger_name": "Nolan Carter",
+				"mobile_number": 2147483647,
+				"email_add": "nolan.carter@eviaje.app",
+				"address": "COA, Quezon City",
+				"passenger_group": "Quezon City",
+				"username": "nolan.carter"
+			}
+		]
+	}
+}
+13:07:09 | [INFO] : /api/passenger/getPassengerListGroupById 
+body: {
+	"passenger_group_id": 1
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"firstName": "Luisa",
+				"lastName": "Reyes",
+				"pickupDropoff": "Litex, Quezon City"
+			},
+			{
+				"firstName": "Miguel",
+				"lastName": "Santos",
+				"pickupDropoff": "Zamora St. Quirino"
+			},
+			{
+				"firstName": "Elena",
+				"lastName": "Bennet",
+				"pickupDropoff": "Zamora St. Quirino"
+			},
+			{
+				"firstName": "Maxwell",
+				"lastName": "Hayes",
+				"pickupDropoff": "Q. Ave Quezon City"
+			},
+			{
+				"firstName": "Nolan",
+				"lastName": "Carter",
+				"pickupDropoff": "COA, Quezon City"
+			}
+		]
+	}
+}
+13:08:15 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "admin123"
+} 
+response: {
+	"api_result": {
+		"code": 401,
+		"message": "User not found!"
+	}
+}
+13:08:25 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "ernani.viaje"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+13:09:16 | [INFO] : /api/passenger/updateBulletinAnnouncement 
+body: {
+	"admin_username": "admin123",
+	"announcement": "No shuttle service on May 10 due to holiday."
+} 
+response: {
+	"api_result": {
+		"code": 401,
+		"message": "User not found!"
+	}
+}
+13:09:22 | [INFO] : /api/passenger/updateBulletinAnnouncement 
+body: {
+	"admin_username": "ernani.viaje",
+	"announcement": "No shuttle service on May 10 due to holiday."
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"success": true,
+			"message": "Announcement updated successfully"
+		}
+	}
+}
+13:09:30 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "ernani.viaje",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+15:20:11 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+15:23:08 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+15:24:15 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+15:25:17 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+15:29:30 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+15:39:33 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+15:47:56 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+15:47:57 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+15:48:24 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+15:53:09 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+15:55:48 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+15:55:59 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+16:05:53 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+16:06:09 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+16:06:18 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+16:06:50 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+16:09:04 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+16:27:41 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+16:31:21 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+16:52:10 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+16:52:10 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {}
+	}
+}
+16:54:19 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "admin123",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 401,
+		"message": "User not found!"
+	}
+}
+16:54:29 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "ernani.viaje",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {}
+	}
+}
+16:55:09 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+16:55:09 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {}
+	}
+}
+16:55:15 | [INFO] : /api/user/getAllDriver 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"driver_name": "Arvi  David",
+				"mobile_number": 912343212,
+				"email_add": "Arvi@gmail.com",
+				"address": "Q. Ave Quezon City",
+				"username": "joseph.aquino"
+			},
+			{
+				"driver_name": "Ardi David",
+				"mobile_number": 2147483647,
+				"email_add": "ardionepogi@gmail.com",
+				"address": "Q. Ave Quezon City",
+				"username": "ardione321"
+			},
+			{
+				"driver_name": "Emilio Ramos",
+				"mobile_number": 2147483647,
+				"email_add": "emilio.ramos@eviaje.app",
+				"address": "Monumento",
+				"username": "emilio.ramos"
+			}
+		]
+	}
+}
+16:55:15 | [INFO] : /api/shuttles/selectAllShuttles 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"id": 1,
+				"name": "Hi-Ace",
+				"model": "Toyota HiAce",
+				"plateNumber": "ABC1234",
+				"color": "White",
+				"sitingCapacity": "15",
+				"coding": "Monday"
+			},
+			{
+				"id": 2,
+				"name": "Urvan",
+				"model": "Nissan",
+				"plateNumber": "ABC1254",
+				"color": "Red",
+				"sitingCapacity": "10",
+				"coding": "Monday"
+			},
+			{
+				"id": 3,
+				"name": "Traveller",
+				"model": "Foton",
+				"plateNumber": "HEX-2456",
+				"color": "White",
+				"sitingCapacity": "12",
+				"coding": "Wednesday"
+			},
+			{
+				"id": 11,
+				"name": "Shuttle Alpha",
+				"model": "Toyota Hiace Super Grandia",
+				"plateNumber": "ABC-1234",
+				"color": "Black",
+				"sitingCapacity": "14",
+				"coding": "Wednesday"
+			}
+		]
+	}
+}
+16:55:15 | [INFO] : /api/passenger/getPassengerGroup 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoffs": [
+					{
+						"pickupDropoff": "Litex, Quezon City",
+						"longitude": "14.737940",
+						"latitude": "121.127990"
+					},
+					{
+						"pickupDropoff": "COA, Quezon City",
+						"longitude": "14.688430",
+						"latitude": "121.074530"
+					},
+					{
+						"pickupDropoff": "Q. Ave Quezon City",
+						"longitude": "14.635410",
+						"latitude": "121.023560"
+					},
+					{
+						"pickupDropoff": "SM Sta. Mesa",
+						"longitude": "14.602400",
+						"latitude": "121.013489"
+					},
+					{
+						"pickupDropoff": "Zamora St. Quirino",
+						"longitude": "14.582680",
+						"latitude": "120.997290"
+					},
+					{
+						"pickupDropoff": "Taft Avenue, Manila",
+						"longitude": "14.583320",
+						"latitude": "120.984154"
+					}
+				]
+			},
+			{
+				"passengerGroup": "Manila City",
+				"pickupDropoffs": [
+					{
+						"pickupDropoff": "Monumento",
+						"longitude": "22.717910",
+						"latitude": "43.848990"
+					},
+					{
+						"pickupDropoff": "Blumentritt Market",
+						"longitude": "14.656120",
+						"latitude": "120.995240"
+					},
+					{
+						"pickupDropoff": "UST",
+						"longitude": "14.577880",
+						"latitude": "121.067932"
+					},
+					{
+						"pickupDropoff": "Doroteo Jose LRT Station",
+						"longitude": "14.605330",
+						"latitude": "120.980240"
+					},
+					{
+						"pickupDropoff": "Plaza Lacson",
+						"longitude": "14.598850",
+						"latitude": "120.980301"
+					}
+				]
+			}
+		]
+	}
+}
+16:55:15 | [INFO] : /api/passenger/getPassengerListGroupById 
+body: {
+	"passenger_group_id": 1
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"firstName": "Luisa",
+				"lastName": "Reyes",
+				"pickupDropoff": "Litex, Quezon City"
+			},
+			{
+				"firstName": "Miguel",
+				"lastName": "Santos",
+				"pickupDropoff": "Zamora St. Quirino"
+			},
+			{
+				"firstName": "Elena",
+				"lastName": "Bennet",
+				"pickupDropoff": "Zamora St. Quirino"
+			},
+			{
+				"firstName": "Maxwell",
+				"lastName": "Hayes",
+				"pickupDropoff": "Q. Ave Quezon City"
+			},
+			{
+				"firstName": "Nolan",
+				"lastName": "Carter",
+				"pickupDropoff": "COA, Quezon City"
+			}
+		]
+	}
+}
+16:59:41 | [INFO] : /api/passenger/createNewSchedule 
+body: {
+	"admin_username": "ernani.viaje",
+	"morning_pickup": "7:00 AM",
+	"post_work_dropoff": "5:30 PM",
+	"driver": "John Doe",
+	"shuttle": "Shuttle Alpha",
+	"date": "2025-05-06T00:00:00.000Z",
+	"passenger_group_id": 1
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"message": "Schedule created successfully.",
+			"morning_pickup": "7:00 AM",
+			"post_work_dropoff": "5:30 PM",
+			"driver": "John Doe",
+			"shuttle": "Shuttle Alpha",
+			"date": "2025-05-06T00:00:00.000Z",
+			"passenger_group_id": 1
+		}
+	}
+}
+17:00:15 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+17:00:15 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:00:24 | [INFO] : /api/user/getAllDriver 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"driver_name": "Arvi  David",
+				"mobile_number": 912343212,
+				"email_add": "Arvi@gmail.com",
+				"address": "Q. Ave Quezon City",
+				"username": "joseph.aquino"
+			},
+			{
+				"driver_name": "Ardi David",
+				"mobile_number": 2147483647,
+				"email_add": "ardionepogi@gmail.com",
+				"address": "Q. Ave Quezon City",
+				"username": "ardione321"
+			},
+			{
+				"driver_name": "Emilio Ramos",
+				"mobile_number": 2147483647,
+				"email_add": "emilio.ramos@eviaje.app",
+				"address": "Monumento",
+				"username": "emilio.ramos"
+			}
+		]
+	}
+}
+17:00:24 | [INFO] : /api/shuttles/selectAllShuttles 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"id": 1,
+				"name": "Hi-Ace",
+				"model": "Toyota HiAce",
+				"plateNumber": "ABC1234",
+				"color": "White",
+				"sitingCapacity": "15",
+				"coding": "Monday"
+			},
+			{
+				"id": 2,
+				"name": "Urvan",
+				"model": "Nissan",
+				"plateNumber": "ABC1254",
+				"color": "Red",
+				"sitingCapacity": "10",
+				"coding": "Monday"
+			},
+			{
+				"id": 3,
+				"name": "Traveller",
+				"model": "Foton",
+				"plateNumber": "HEX-2456",
+				"color": "White",
+				"sitingCapacity": "12",
+				"coding": "Wednesday"
+			},
+			{
+				"id": 11,
+				"name": "Shuttle Alpha",
+				"model": "Toyota Hiace Super Grandia",
+				"plateNumber": "ABC-1234",
+				"color": "Black",
+				"sitingCapacity": "14",
+				"coding": "Wednesday"
+			}
+		]
+	}
+}
+17:00:24 | [INFO] : /api/passenger/getPassengerGroup 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passengerGroup": "Quezon City",
+				"pickupDropoffs": [
+					{
+						"pickupDropoff": "Litex, Quezon City",
+						"longitude": "14.737940",
+						"latitude": "121.127990"
+					},
+					{
+						"pickupDropoff": "COA, Quezon City",
+						"longitude": "14.688430",
+						"latitude": "121.074530"
+					},
+					{
+						"pickupDropoff": "Q. Ave Quezon City",
+						"longitude": "14.635410",
+						"latitude": "121.023560"
+					},
+					{
+						"pickupDropoff": "SM Sta. Mesa",
+						"longitude": "14.602400",
+						"latitude": "121.013489"
+					},
+					{
+						"pickupDropoff": "Zamora St. Quirino",
+						"longitude": "14.582680",
+						"latitude": "120.997290"
+					},
+					{
+						"pickupDropoff": "Taft Avenue, Manila",
+						"longitude": "14.583320",
+						"latitude": "120.984154"
+					}
+				]
+			},
+			{
+				"passengerGroup": "Manila City",
+				"pickupDropoffs": [
+					{
+						"pickupDropoff": "Monumento",
+						"longitude": "22.717910",
+						"latitude": "43.848990"
+					},
+					{
+						"pickupDropoff": "Blumentritt Market",
+						"longitude": "14.656120",
+						"latitude": "120.995240"
+					},
+					{
+						"pickupDropoff": "UST",
+						"longitude": "14.577880",
+						"latitude": "121.067932"
+					},
+					{
+						"pickupDropoff": "Doroteo Jose LRT Station",
+						"longitude": "14.605330",
+						"latitude": "120.980240"
+					},
+					{
+						"pickupDropoff": "Plaza Lacson",
+						"longitude": "14.598850",
+						"latitude": "120.980301"
+					}
+				]
+			}
+		]
+	}
+}
+17:00:24 | [INFO] : /api/passenger/getPassengerListGroupById 
+body: {
+	"passenger_group_id": 1
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"firstName": "Luisa",
+				"lastName": "Reyes",
+				"pickupDropoff": "Litex, Quezon City"
+			},
+			{
+				"firstName": "Miguel",
+				"lastName": "Santos",
+				"pickupDropoff": "Zamora St. Quirino"
+			},
+			{
+				"firstName": "Elena",
+				"lastName": "Bennet",
+				"pickupDropoff": "Zamora St. Quirino"
+			},
+			{
+				"firstName": "Maxwell",
+				"lastName": "Hayes",
+				"pickupDropoff": "Q. Ave Quezon City"
+			},
+			{
+				"firstName": "Nolan",
+				"lastName": "Carter",
+				"pickupDropoff": "COA, Quezon City"
+			}
+		]
+	}
+}
+17:00:28 | [INFO] : /api/passenger/getPassengerListGroupById 
+body: {
+	"passenger_group_id": 2
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"firstName": "Jomar",
+				"lastName": "Delacruz",
+				"pickupDropoff": "Doroteo Jose LRT Station"
+			},
+			{
+				"firstName": "Symon",
+				"lastName": "legaspi",
+				"pickupDropoff": "Doroteo Jose LRT Station"
+			},
+			{
+				"firstName": "Isabella",
+				"lastName": "Cruz",
+				"pickupDropoff": "Monumento"
+			},
+			{
+				"firstName": "Diego",
+				"lastName": "Ramos",
+				"pickupDropoff": "Monumento"
+			},
+			{
+				"firstName": "Sofia",
+				"lastName": "Fernandez",
+				"pickupDropoff": "Monumento"
+			},
+			{
+				"firstName": "Lorenzo",
+				"lastName": "Torres",
+				"pickupDropoff": "UST"
+			}
+		]
+	}
+}
+17:00:46 | [INFO] : /api/passenger/createNewSchedule 
+body: {
+	"admin_username": "Arvi",
+	"morning_pickup": "18:00",
+	"post_work_dropoff": "21:00",
+	"driver": "Arvi  David",
+	"shuttle": "Toyota HiAce",
+	"date": "2025-05-06T00:00:00.000Z",
+	"passenger_group_id": 2
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"message": "Schedule created successfully.",
+			"morning_pickup": "18:00",
+			"post_work_dropoff": "21:00",
+			"driver": "Arvi  David",
+			"shuttle": "Toyota HiAce",
+			"date": "2025-05-06T00:00:00.000Z",
+			"passenger_group_id": 2
+		}
+	}
+}
+17:00:49 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:01:02 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:01:06 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:01:06 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:01:07 | [INFO] : /api/user/getAllPassenger 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passenger_name": "Luisa Reyes",
+				"mobile_number": 912345673,
+				"email_add": "luisa.reyes2@eviaje.app",
+				"address": "Litex, Quezon City",
+				"passenger_group": "Quezon City",
+				"username": "luisa.reyes"
+			},
+			{
+				"passenger_name": "Miguel Santos",
+				"mobile_number": 917545254,
+				"email_add": "miguel.santos@eviaje.app",
+				"address": "Zamora St. Quirino",
+				"passenger_group": "Quezon City",
+				"username": "miguel.santos"
+			},
+			{
+				"passenger_name": "Jomar Delacruz",
+				"mobile_number": 2147483647,
+				"email_add": "jomardelacruz11@gmail.com11",
+				"address": "Doroteo Jose LRT Station",
+				"passenger_group": "Manila City",
+				"username": "jomar"
+			},
+			{
+				"passenger_name": "Elena Bennet",
+				"mobile_number": 2147483647,
+				"email_add": "elena.bennet@eviaje.app",
+				"address": "Zamora St. Quirino",
+				"passenger_group": "Quezon City",
+				"username": "elena.bennet"
+			},
+			{
+				"passenger_name": "Maxwell Hayes",
+				"mobile_number": 2147483647,
+				"email_add": "maxwell.hayes@eviaje.app",
+				"address": "Q. Ave Quezon City",
+				"passenger_group": "Quezon City",
+				"username": "maxwell.hayes"
+			},
+			{
+				"passenger_name": "Symon legaspi",
+				"mobile_number": 90909131,
+				"email_add": "symon@gmail.com",
+				"address": "Doroteo Jose LRT Station",
+				"passenger_group": "Manila City",
+				"username": "symon"
+			},
+			{
+				"passenger_name": "Isabella Cruz",
+				"mobile_number": 2147483647,
+				"email_add": "isabella.cruz@eviaje.app",
+				"address": "Monumento",
+				"passenger_group": "Manila City",
+				"username": "isabella.cruz"
+			},
+			{
+				"passenger_name": "Diego Ramos",
+				"mobile_number": 2147483647,
+				"email_add": "diego.ramos@eviaje.app",
+				"address": "Monumento",
+				"passenger_group": "Manila City",
+				"username": "diego.ramos"
+			},
+			{
+				"passenger_name": "Sofia Fernandez",
+				"mobile_number": 2147483647,
+				"email_add": "sofia.fernandez@eviaje.app",
+				"address": "Monumento",
+				"passenger_group": "Manila City",
+				"username": "sofia.fernandez"
+			},
+			{
+				"passenger_name": "Lorenzo Torres",
+				"mobile_number": 917345234,
+				"email_add": "lorenzo.torres@eviaje.app",
+				"address": "UST",
+				"passenger_group": "Manila City",
+				"username": "lorenzo.torres"
+			},
+			{
+				"passenger_name": "Nolan Carter",
+				"mobile_number": 2147483647,
+				"email_add": "nolan.carter@eviaje.app",
+				"address": "COA, Quezon City",
+				"passenger_group": "Quezon City",
+				"username": "nolan.carter"
+			}
+		]
+	}
+}
+17:01:09 | [INFO] : /api/user/getAllDriver 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"driver_name": "Arvi  David",
+				"mobile_number": 912343212,
+				"email_add": "Arvi@gmail.com",
+				"address": "Q. Ave Quezon City",
+				"username": "joseph.aquino"
+			},
+			{
+				"driver_name": "Ardi David",
+				"mobile_number": 2147483647,
+				"email_add": "ardionepogi@gmail.com",
+				"address": "Q. Ave Quezon City",
+				"username": "ardione321"
+			},
+			{
+				"driver_name": "Emilio Ramos",
+				"mobile_number": 2147483647,
+				"email_add": "emilio.ramos@eviaje.app",
+				"address": "Monumento",
+				"username": "emilio.ramos"
+			}
+		]
+	}
+}
+17:01:10 | [INFO] : /api/shuttles/selectAllShuttles 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"id": 1,
+				"name": "Hi-Ace",
+				"model": "Toyota HiAce",
+				"plateNumber": "ABC1234",
+				"color": "White",
+				"sitingCapacity": "15",
+				"coding": "Monday"
+			},
+			{
+				"id": 2,
+				"name": "Urvan",
+				"model": "Nissan",
+				"plateNumber": "ABC1254",
+				"color": "Red",
+				"sitingCapacity": "10",
+				"coding": "Monday"
+			},
+			{
+				"id": 3,
+				"name": "Traveller",
+				"model": "Foton",
+				"plateNumber": "HEX-2456",
+				"color": "White",
+				"sitingCapacity": "12",
+				"coding": "Wednesday"
+			},
+			{
+				"id": 11,
+				"name": "Shuttle Alpha",
+				"model": "Toyota Hiace Super Grandia",
+				"plateNumber": "ABC-1234",
+				"color": "Black",
+				"sitingCapacity": "14",
+				"coding": "Wednesday"
+			}
+		]
+	}
+}
+17:01:13 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:01:56 | [INFO] : /api/user/register 
+body: {
+	"admin_username": "Arvi",
+	"first_name": "jess",
+	"last_name": "lavarro",
+	"username": "jesslavarro",
+	"password": "jesslavarro",
+	"user_role": 1,
+	"mobile_number": "123",
+	"email_add": "jess@gmail.com",
+	"pickup_dropoff_id": 1,
+	"passenger_group_id": 1
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"message": "Saving successful.",
+			"first_name": "jess",
+			"last_name": "lavarro",
+			"username": "jesslavarro"
+		}
+	}
+}
+17:02:04 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:02:12 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:02:12 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:02:13 | [INFO] : /api/user/getAllPassenger 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passenger_name": "Luisa Reyes",
+				"mobile_number": 912345673,
+				"email_add": "luisa.reyes2@eviaje.app",
+				"address": "Litex, Quezon City",
+				"passenger_group": "Quezon City",
+				"username": "luisa.reyes"
+			},
+			{
+				"passenger_name": "Miguel Santos",
+				"mobile_number": 917545254,
+				"email_add": "miguel.santos@eviaje.app",
+				"address": "Zamora St. Quirino",
+				"passenger_group": "Quezon City",
+				"username": "miguel.santos"
+			},
+			{
+				"passenger_name": "Jomar Delacruz",
+				"mobile_number": 2147483647,
+				"email_add": "jomardelacruz11@gmail.com11",
+				"address": "Doroteo Jose LRT Station",
+				"passenger_group": "Manila City",
+				"username": "jomar"
+			},
+			{
+				"passenger_name": "Elena Bennet",
+				"mobile_number": 2147483647,
+				"email_add": "elena.bennet@eviaje.app",
+				"address": "Zamora St. Quirino",
+				"passenger_group": "Quezon City",
+				"username": "elena.bennet"
+			},
+			{
+				"passenger_name": "Maxwell Hayes",
+				"mobile_number": 2147483647,
+				"email_add": "maxwell.hayes@eviaje.app",
+				"address": "Q. Ave Quezon City",
+				"passenger_group": "Quezon City",
+				"username": "maxwell.hayes"
+			},
+			{
+				"passenger_name": "Symon legaspi",
+				"mobile_number": 90909131,
+				"email_add": "symon@gmail.com",
+				"address": "Doroteo Jose LRT Station",
+				"passenger_group": "Manila City",
+				"username": "symon"
+			},
+			{
+				"passenger_name": "Isabella Cruz",
+				"mobile_number": 2147483647,
+				"email_add": "isabella.cruz@eviaje.app",
+				"address": "Monumento",
+				"passenger_group": "Manila City",
+				"username": "isabella.cruz"
+			},
+			{
+				"passenger_name": "Diego Ramos",
+				"mobile_number": 2147483647,
+				"email_add": "diego.ramos@eviaje.app",
+				"address": "Monumento",
+				"passenger_group": "Manila City",
+				"username": "diego.ramos"
+			},
+			{
+				"passenger_name": "Sofia Fernandez",
+				"mobile_number": 2147483647,
+				"email_add": "sofia.fernandez@eviaje.app",
+				"address": "Monumento",
+				"passenger_group": "Manila City",
+				"username": "sofia.fernandez"
+			},
+			{
+				"passenger_name": "Lorenzo Torres",
+				"mobile_number": 917345234,
+				"email_add": "lorenzo.torres@eviaje.app",
+				"address": "UST",
+				"passenger_group": "Manila City",
+				"username": "lorenzo.torres"
+			},
+			{
+				"passenger_name": "Nolan Carter",
+				"mobile_number": 2147483647,
+				"email_add": "nolan.carter@eviaje.app",
+				"address": "COA, Quezon City",
+				"passenger_group": "Quezon City",
+				"username": "nolan.carter"
+			}
+		]
+	}
+}
+17:02:23 | [INFO] : /api/user/getAllDriver 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"driver_name": "Arvi  David",
+				"mobile_number": 912343212,
+				"email_add": "Arvi@gmail.com",
+				"address": "Q. Ave Quezon City",
+				"username": "joseph.aquino"
+			},
+			{
+				"driver_name": "Ardi David",
+				"mobile_number": 2147483647,
+				"email_add": "ardionepogi@gmail.com",
+				"address": "Q. Ave Quezon City",
+				"username": "ardione321"
+			},
+			{
+				"driver_name": "Emilio Ramos",
+				"mobile_number": 2147483647,
+				"email_add": "emilio.ramos@eviaje.app",
+				"address": "Monumento",
+				"username": "emilio.ramos"
+			}
+		]
+	}
+}
+17:02:25 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:03:46 | [INFO] : /api/user/login 
+body: {
+	"username": "Joseph.aquino",
+	"password": "jaquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Arvi",
+				"last_name": " David",
+				"username": "joseph.aquino",
+				"user_role": 3
+			}
+		}
+	}
+}
+17:03:47 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:03:47 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:03:52 | [INFO] : /api/user/getPassengerByUserName 
+body: {
+	"username": "joseph.aquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": []
+	}
+}
+17:04:49 | [INFO] : /api/user/login 
+body: {
+	"username": "luisa.reyes",
+	"password": "lreyes"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Luisa",
+				"last_name": "Reyes",
+				"username": "luisa.reyes",
+				"user_role": 2
+			}
+		}
+	}
+}
+17:04:50 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:04:50 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:05:10 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:05:13 | [INFO] : /api/user/getPassengerByUserName 
+body: {
+	"username": "luisa.reyes"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passenger_name": "Luisa Reyes",
+				"mobile_number": 912345673,
+				"email_add": "luisa.reyes2@eviaje.app",
+				"address": "Litex, Quezon City",
+				"passenger_group": "Quezon City"
+			}
+		]
+	}
+}
+17:06:38 | [INFO] : /api/user/login 
+body: {
+	"username": "Luisa.reyes",
+	"password": "lreyes"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Luisa",
+				"last_name": "Reyes",
+				"username": "luisa.reyes",
+				"user_role": 2
+			}
+		}
+	}
+}
+17:06:39 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:06:39 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:09:47 | [INFO] : /api/user/login 
+body: {
+	"username": "joseph.aquino",
+	"password": "jaquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Arvi",
+				"last_name": " David",
+				"username": "joseph.aquino",
+				"user_role": 3
+			}
+		}
+	}
+}
+17:09:47 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:09:48 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:10:10 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:10:16 | [INFO] : /api/user/getPassengerByUserName 
+body: {
+	"username": "joseph.aquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": []
+	}
+}
+17:10:24 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:10:24 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:13:16 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:13:22 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:13:23 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:13:25 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:13:28 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:13:29 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:14:49 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:14:53 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:14:53 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:15:07 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:15:11 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:15:11 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:17:19 | [INFO] : /api/user/login 
+body: {
+	"username": "Luisa.reyes",
+	"password": "lreyes"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Luisa",
+				"last_name": "Reyes",
+				"username": "luisa.reyes",
+				"user_role": 2
+			}
+		}
+	}
+}
+17:17:20 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:17:20 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:17:35 | [INFO] : /api/user/getPassengerByUserName 
+body: {
+	"username": "luisa.reyes"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passenger_name": "Luisa Reyes",
+				"mobile_number": 912345673,
+				"email_add": "luisa.reyes2@eviaje.app",
+				"address": "Litex, Quezon City",
+				"passenger_group": "Quezon City"
+			}
+		]
+	}
+}
+17:17:46 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:17:46 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:17:53 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:18:00 | [INFO] : /api/user/getPassengerByUserName 
+body: {
+	"username": "luisa.reyes"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passenger_name": "Luisa Reyes",
+				"mobile_number": 912345673,
+				"email_add": "luisa.reyes2@eviaje.app",
+				"address": "Litex, Quezon City",
+				"passenger_group": "Quezon City"
+			}
+		]
+	}
+}
+17:18:04 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:18:04 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:18:09 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:18:11 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:18:11 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:19:17 | [INFO] : /api/user/login 
+body: {
+	"username": "Joseph.aquino",
+	"password": "jaquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Arvi",
+				"last_name": " David",
+				"username": "joseph.aquino",
+				"user_role": 3
+			}
+		}
+	}
+}
+17:19:17 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:19:18 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:19:36 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+17:19:38 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:19:38 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:34:02 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:34:03 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+17:49:00 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+17:49:00 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+18:03:04 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+18:03:05 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+18:08:10 | [INFO] : /api/user/login 
+body: {
+	"username": "joseph.aquino",
+	"password": "jaquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Arvi",
+				"last_name": " David",
+				"username": "joseph.aquino",
+				"user_role": 3
+			}
+		}
+	}
+}
+18:08:11 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+18:08:11 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+18:08:16 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+18:08:18 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+18:08:18 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+18:08:27 | [INFO] : /api/user/getPassengerByUserName 
+body: {
+	"username": "joseph.aquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": []
+	}
+}
+18:09:27 | [INFO] : /api/user/login 
+body: {
+	"username": "ernani.viaje",
+	"password": "VIAJE"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Ernani",
+				"last_name": "Viaje",
+				"username": "ernani.viaje",
+				"user_role": 1
+			}
+		}
+	}
+}
+18:09:27 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+18:09:55 | [INFO] : /api/user/register 
+body: {
+	"admin_username": "Arvi",
+	"first_name": "jomar",
+	"last_name": "delacruz",
+	"username": "015jomar",
+	"password": "015jomar",
+	"user_role": 1,
+	"mobile_number": "123",
+	"email_add": "test@mail",
+	"pickup_dropoff_id": 1,
+	"passenger_group_id": 1
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"message": "Saving successful.",
+			"first_name": "jomar",
+			"last_name": "delacruz",
+			"username": "015jomar"
+		}
+	}
+}
+18:10:53 | [INFO] : /api/user/login 
+body: {
+	"username": "015jomar",
+	"password": "015jomar"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "jomar",
+				"last_name": "delacruz",
+				"username": "015jomar",
+				"user_role": 1
+			}
+		}
+	}
+}
+18:10:53 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+18:11:01 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+18:11:01 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+18:11:03 | [INFO] : /api/user/getAllPassenger 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passenger_name": "Nolan Carter",
+				"mobile_number": 2147483647,
+				"email_add": "nolan.carter@eviaje.app",
+				"address": "COA, Quezon City",
+				"passenger_group": "Quezon City",
+				"username": "nolan.carter"
+			},
+			{
+				"passenger_name": "Maxwell Hayes",
+				"mobile_number": 2147483647,
+				"email_add": "maxwell.hayes@eviaje.app",
+				"address": "Q. Ave Quezon City",
+				"passenger_group": "Quezon City",
+				"username": "maxwell.hayes"
+			},
+			{
+				"passenger_name": "Elena Bennet",
+				"mobile_number": 2147483647,
+				"email_add": "elena.bennet@eviaje.app",
+				"address": "Zamora St. Quirino",
+				"passenger_group": "Quezon City",
+				"username": "elena.bennet"
+			},
+			{
+				"passenger_name": "Miguel Santos",
+				"mobile_number": 917545254,
+				"email_add": "miguel.santos@eviaje.app",
+				"address": "Zamora St. Quirino",
+				"passenger_group": "Quezon City",
+				"username": "miguel.santos"
+			},
+			{
+				"passenger_name": "Luisa Reyes",
+				"mobile_number": 912345673,
+				"email_add": "luisa.reyes2@eviaje.app",
+				"address": "Litex, Quezon City",
+				"passenger_group": "Quezon City",
+				"username": "luisa.reyes"
+			},
+			{
+				"passenger_name": "Lorenzo Torres",
+				"mobile_number": 917345234,
+				"email_add": "lorenzo.torres@eviaje.app",
+				"address": "UST",
+				"passenger_group": "Manila City",
+				"username": "lorenzo.torres"
+			},
+			{
+				"passenger_name": "Sofia Fernandez",
+				"mobile_number": 2147483647,
+				"email_add": "sofia.fernandez@eviaje.app",
+				"address": "Monumento",
+				"passenger_group": "Manila City",
+				"username": "sofia.fernandez"
+			},
+			{
+				"passenger_name": "Diego Ramos",
+				"mobile_number": 2147483647,
+				"email_add": "diego.ramos@eviaje.app",
+				"address": "Monumento",
+				"passenger_group": "Manila City",
+				"username": "diego.ramos"
+			},
+			{
+				"passenger_name": "Isabella Cruz",
+				"mobile_number": 2147483647,
+				"email_add": "isabella.cruz@eviaje.app",
+				"address": "Monumento",
+				"passenger_group": "Manila City",
+				"username": "isabella.cruz"
+			},
+			{
+				"passenger_name": "Symon legaspi",
+				"mobile_number": 90909131,
+				"email_add": "symon@gmail.com",
+				"address": "Doroteo Jose LRT Station",
+				"passenger_group": "Manila City",
+				"username": "symon"
+			},
+			{
+				"passenger_name": "Jomar Delacruz",
+				"mobile_number": 2147483647,
+				"email_add": "jomardelacruz11@gmail.com11",
+				"address": "Doroteo Jose LRT Station",
+				"passenger_group": "Manila City",
+				"username": "jomar"
+			}
+		]
+	}
+}
+18:11:07 | [INFO] : /api/shuttles/selectAllShuttles 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"id": 1,
+				"name": "Hi-Ace",
+				"model": "Toyota HiAce",
+				"plateNumber": "ABC1234",
+				"color": "White",
+				"sitingCapacity": "15",
+				"coding": "Monday"
+			},
+			{
+				"id": 2,
+				"name": "Urvan",
+				"model": "Nissan",
+				"plateNumber": "ABC1254",
+				"color": "Red",
+				"sitingCapacity": "10",
+				"coding": "Monday"
+			},
+			{
+				"id": 3,
+				"name": "Traveller",
+				"model": "Foton",
+				"plateNumber": "HEX-2456",
+				"color": "White",
+				"sitingCapacity": "12",
+				"coding": "Wednesday"
+			},
+			{
+				"id": 11,
+				"name": "Shuttle Alpha",
+				"model": "Toyota Hiace Super Grandia",
+				"plateNumber": "ABC-1234",
+				"color": "Black",
+				"sitingCapacity": "14",
+				"coding": "Wednesday"
+			}
+		]
+	}
+}
+18:11:43 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+18:12:04 | [INFO] : /api/user/register 
+body: {
+	"admin_username": "Arvi",
+	"first_name": "jomar",
+	"last_name": "jomar",
+	"username": "jomar",
+	"password": "jomar",
+	"user_role": 3,
+	"mobile_number": "123",
+	"email_add": "@test",
+	"pickup_dropoff_id": 1,
+	"passenger_group_id": 1
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"message": "Saving successful.",
+			"first_name": "jomar",
+			"last_name": "jomar",
+			"username": "jomar"
+		}
+	}
+}
+18:12:35 | [INFO] : /api/user/login 
+body: {
+	"username": "jomar",
+	"password": "jomar"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "jomar",
+				"last_name": "jomar",
+				"username": "jomar",
+				"user_role": 3
+			}
+		}
+	}
+}
+18:12:35 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+18:12:35 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+18:12:38 | [INFO] : /api/user/getPassengerByUserName 
+body: {
+	"username": "jomar"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passenger_name": "Jomar Delacruz",
+				"mobile_number": 2147483647,
+				"email_add": "jomardelacruz11@gmail.com11",
+				"address": "Doroteo Jose LRT Station",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+18:12:41 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+18:12:43 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+18:12:44 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+18:12:59 | [INFO] : /api/user/getPassengerByUserName 
+body: {
+	"username": "jomar"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"passenger_name": "Jomar Delacruz",
+				"mobile_number": 2147483647,
+				"email_add": "jomardelacruz11@gmail.com11",
+				"address": "Doroteo Jose LRT Station",
+				"passenger_group": "Manila City"
+			}
+		]
+	}
+}
+18:13:10 | [INFO] : /api/user/login 
+body: {
+	"username": "015jomar",
+	"password": "015jomar"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "jomar",
+				"last_name": "delacruz",
+				"username": "015jomar",
+				"user_role": 1
+			}
+		}
+	}
+}
+18:13:10 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+18:13:34 | [INFO] : /api/user/register 
+body: {
+	"admin_username": "Arvi",
+	"first_name": "near",
+	"last_name": "near",
+	"username": "near",
+	"password": "near",
+	"user_role": 3,
+	"mobile_number": "123",
+	"email_add": "near",
+	"pickup_dropoff_id": 9,
+	"passenger_group_id": 2
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"message": "Saving successful.",
+			"first_name": "near",
+			"last_name": "near",
+			"username": "near"
+		}
+	}
+}
+18:13:58 | [INFO] : /api/user/login 
+body: {
+	"username": "near",
+	"password": "near"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "near",
+				"last_name": "near",
+				"username": "near",
+				"user_role": 3
+			}
+		}
+	}
+}
+18:13:59 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+18:13:59 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+18:14:04 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+18:14:08 | [INFO] : /api/user/getPassengerByUserName 
+body: {
+	"username": "near"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": []
+	}
+}
+18:14:16 | [INFO] : /api/passenger/getPassengerList 
+body: {
+	"admin_username": "Arvi",
+	"date": "2025-05-06"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"Manila City": {
+				"Doroteo Jose LRT Station": [
+					{
+						"firstName": "Jomar",
+						"lastName": "Delacruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Symon",
+						"lastName": "legaspi",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"Monumento": [
+					{
+						"firstName": "Isabella",
+						"lastName": "Cruz",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Diego",
+						"lastName": "Ramos",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					},
+					{
+						"firstName": "Sofia",
+						"lastName": "Fernandez",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				],
+				"UST": [
+					{
+						"firstName": "Lorenzo",
+						"lastName": "Torres",
+						"morningPickup": "18:00",
+						"postWorkDropoff": "21:00"
+					}
+				]
+			},
+			"Quezon City": {
+				"COA, Quezon City": [
+					{
+						"firstName": "Nolan",
+						"lastName": "Carter",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Litex, Quezon City": [
+					{
+						"firstName": "Luisa",
+						"lastName": "Reyes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Q. Ave Quezon City": [
+					{
+						"firstName": "Maxwell",
+						"lastName": "Hayes",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				],
+				"Zamora St. Quirino": [
+					{
+						"firstName": "Miguel",
+						"lastName": "Santos",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					},
+					{
+						"firstName": "Elena",
+						"lastName": "Bennet",
+						"morningPickup": "7:00 AM",
+						"postWorkDropoff": "5:30 PM"
+					}
+				]
+			}
+		}
+	}
+}
+18:14:17 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+18:14:18 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+18:14:20 | [INFO] : /api/user/getPassengerByUserName 
+body: {
+	"username": "near"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": []
+	}
+}
+18:15:27 | [INFO] : /api/user/login 
+body: {
+	"username": "joseph.aquino",
+	"password": "jaquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Arvi",
+				"last_name": " David",
+				"username": "joseph.aquino",
+				"user_role": 3
+			}
+		}
+	}
+}
+18:15:27 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+18:15:28 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+18:15:29 | [INFO] : /api/user/getPassengerByUserName 
+body: {
+	"username": "joseph.aquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": []
+	}
+}
+18:18:04 | [INFO] : /api/user/login 
+body: {
+	"username": "joseph.aquino",
+	"password": "jaquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Arvi",
+				"last_name": " David",
+				"username": "joseph.aquino",
+				"user_role": 3
+			}
+		}
+	}
+}
+18:18:05 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+18:18:05 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+18:18:11 | [INFO] : /api/user/getPassengerByUserName 
+body: {
+	"username": "joseph.aquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": []
+	}
+}
+18:19:22 | [INFO] : /api/user/getDriverByUserName 
+body: {
+	"username": "joseph.aquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"driver_name": "Arvi  David",
+				"mobile_number": 912343212,
+				"email_add": "Arvi@gmail.com",
+				"address": "Q. Ave Quezon City"
+			}
+		]
+	}
+}
+18:19:38 | [INFO] : /api/user/getDriverByUserName 
+body: {
+	"username": "joseph.aquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"driver_name": "Arvi  David",
+				"mobile_number": 912343212,
+				"email_add": "Arvi@gmail.com",
+				"address": "Q. Ave Quezon City"
+			}
+		]
+	}
+}
+18:20:32 | [INFO] : /api/user/login 
+body: {
+	"username": "joseph.aquino",
+	"password": "jaquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Arvi",
+				"last_name": " David",
+				"username": "joseph.aquino",
+				"user_role": 3
+			}
+		}
+	}
+}
+18:20:32 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+18:20:32 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+18:20:32 | [INFO] : /api/user/login 
+body: {
+	"username": "joseph.aquino",
+	"password": "jaquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Arvi",
+				"last_name": " David",
+				"username": "joseph.aquino",
+				"user_role": 3
+			}
+		}
+	}
+}
+18:20:32 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+18:20:33 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+18:20:34 | [INFO] : /api/user/getPassengerByUserName 
+body: {
+	"username": "joseph.aquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": []
+	}
+}
+18:23:45 | [INFO] : /api/user/login 
+body: {
+	"username": "joseph.aquino",
+	"password": "joseph.aquino"
+} 
+response: {
+	"api_result": {
+		"code": 404,
+		"message": "Invalid username or password."
+	}
+}
+18:23:54 | [INFO] : /api/user/login 
+body: {
+	"username": "joseph.aquino",
+	"password": "jaquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"user_details": {
+				"first_name": "Arvi",
+				"last_name": " David",
+				"username": "joseph.aquino",
+				"user_role": 3
+			}
+		}
+	}
+}
+18:23:55 | [INFO] : /api/passenger/getBulletinAnnouncement 
+body: {
+	"admin_username": "Arvi",
+	"date": "2024-05-19"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": {
+			"announcement": "No shuttle service on May 10 due to holiday.",
+			"passengerList": []
+		}
+	}
+}
+18:23:55 | [INFO] : /api/passenger/getBulletinHoliday 
+body: {
+	"admin_username": "Arvi"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": [
+			{
+				"holiday": "May 1, 2024",
+				"announcement": "Labor Day"
+			}
+		]
+	}
+}
+18:23:57 | [INFO] : /api/user/getPassengerByUserName 
+body: {
+	"username": "joseph.aquino"
+} 
+response: {
+	"api_result": {
+		"code": 200,
+		"data": []
+	}
+}

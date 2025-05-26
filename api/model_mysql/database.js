@@ -1,8 +1,8 @@
 module.exports = {
   connectionConfig: {
-      host: 'localhost',
-      user: 'root',
-      database: 'transport_management',
-      password: ''
-  }
+    host: "13.229.221.117",
+    user: "ernani",
+    database: "transport_management",
+    password: "eViaje$2025!",
+  },
 };

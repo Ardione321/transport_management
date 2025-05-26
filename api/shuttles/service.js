@@ -1,133 +1,161 @@
 const { User, sequelize, Sequelize } = require("../../models");
-const mysql = require('mysql2/promise');
-const { checkUserIFAdmin } = require('./utils');
-const { connectionConfig } = require('../model_mysql/database');
+const mysql = require("mysql2/promise");
+const { checkUserIFAdmin } = require("./utils");
+const { connectionConfig } = require("../model_mysql/database");
 
 module.exports = {
-    selectAllShuttles: async (data) => {
-        let connection;
-        try {
-            const { admin_username } = data;
-            await checkUserIFAdmin(admin_username);
+  selectAllShuttles: async (data) => {
+    let connection;
+    try {
+      const { admin_username } = data;
+      await checkUserIFAdmin(admin_username);
 
-            connection = await mysql.createConnection(connectionConfig);
+      connection = await mysql.createConnection(connectionConfig);
 
-            await connection.beginTransaction();
+      await connection.beginTransaction();
 
-            const query = `
+      const query = `
                 SELECT * FROM shuttles;
             `;
 
-            const [results] = await connection.query(query);
+      const [results] = await connection.query(query);
 
-            await connection.commit();
+      await connection.commit();
 
-            const formattedShuttlesList = results.map(row => ({
-                id: row.id,
-                name: row.name,
-                model: row.model,
-                plateNumber: row.plate_number,
-                color: row.color,
-                sitingCapacity: row.siting_capacity,
-                coding: row.coding
-            }));
+      const formattedShuttlesList = results.map((row) => ({
+        id: row.id,
+        name: row.name,
+        model: row.model,
+        plateNumber: row.plate_number,
+        color: row.color,
+        sitingCapacity: row.siting_capacity,
+        coding: row.coding,
+      }));
 
-            return formattedShuttlesList;
-        } catch (err) {
-            console.error('Error fetching shuttles:', err);
-            if (connection) {
-                await connection.rollback();
-            }
-            throw err;
-        } finally {
-            if (connection) {
-                await connection.end();
-            }
-        }
-    },
+      return formattedShuttlesList;
+    } catch (err) {
+      console.error("Error fetching shuttles:", err);
+      if (connection) {
+        await connection.rollback();
+      }
+      throw err;
+    } finally {
+      if (connection) {
+        await connection.end();
+      }
+    }
+  },
 
-    registerShuttles: async (data) => {
-        let connection;
-        try {
-            const { admin_username, name, model, plate_number, color, siting_capacity, coding } = data;
-            await checkUserIFAdmin(admin_username);
+  registerShuttles: async (data) => {
+    let connection;
+    try {
+      const {
+        admin_username,
+        name,
+        model,
+        plate_number,
+        color,
+        siting_capacity,
+        coding,
+      } = data;
+      await checkUserIFAdmin(admin_username);
 
-            connection = await mysql.createConnection(connectionConfig);
+      connection = await mysql.createConnection(connectionConfig);
 
-            await connection.beginTransaction();
+      await connection.beginTransaction();
 
-            const insertQuery = `
+      const insertQuery = `
                 INSERT INTO shuttles (name, model, plate_number, color, siting_capacity, coding)
                 VALUES (?, ?, ?, ?, ?, ?)
             `;
 
-            await connection.execute(insertQuery, [name, model, plate_number, color, siting_capacity, coding]);
+      await connection.execute(insertQuery, [
+        name,
+        model,
+        plate_number,
+        color,
+        siting_capacity,
+        coding,
+      ]);
 
-            await connection.commit();
+      await connection.commit();
 
-            const result = {
-                message: "Saving successful.",
-                model,
-                plate_number,
-                siting_capacity
-            };
+      const result = {
+        message: "Saving successful.",
+        model,
+        plate_number,
+        siting_capacity,
+      };
 
-            return result;
+      return result;
+    } catch (err) {
+      console.error("Error saving shuttle:", err);
+      if (connection) {
+        await connection.rollback();
+      }
+      throw err;
+    } finally {
+      if (connection) {
+        await connection.end();
+      }
+    }
+  },
 
-        } catch (err) {
-            console.error('Error saving shuttle:', err);
-            if (connection) {
-                await connection.rollback();
-            }
-            throw err;
-        } finally {
-            if (connection) {
-                await connection.end();
-            }
-        }
-    },
+  updateShuttle: async (data) => {
+    let connection;
+    try {
+      const {
+        admin_username,
+        name,
+        model,
+        plate_number,
+        color,
+        siting_capacity,
+        coding,
+      } = data;
+      await checkUserIFAdmin(admin_username);
 
-    updateShuttle: async (data) => {
-        let connection;
-        try {
-            const { admin_username, name, model, plate_number, color, siting_capacity, coding } = data;
-            await checkUserIFAdmin(admin_username);
+      connection = await mysql.createConnection(connectionConfig);
 
-            connection = await mysql.createConnection(connectionConfig);
+      await connection.beginTransaction();
 
-            await connection.beginTransaction();
-
-            const updateQuery = `
+      const updateQuery = `
                 UPDATE shuttles 
                 SET name = ?, model = ?, color = ?, siting_capacity = ?, coding = ?
                 WHERE plate_number = ?
             `;
 
-            const [result] = await connection.execute(updateQuery, [name, model, color, siting_capacity, coding, plate_number]);
+      const [result] = await connection.execute(updateQuery, [
+        name,
+        model,
+        color,
+        siting_capacity,
+        coding,
+        plate_number,
+      ]);
 
-            await connection.commit();
+      await connection.commit();
 
-            if (result.affectedRows === 0) {
-                throw new Error('No shuttle found with the provided plate number');
-            }
+      if (result.affectedRows === 0) {
+        throw new Error("No shuttle found with the provided plate number");
+      }
 
-            return {
-                message: "Update successful.",
-                model,
-                plate_number,
-                siting_capacity
-            };
-
-        } catch (err) {
-            console.error('Error updating shuttle:', err);
-            if (connection) {
-                await connection.rollback();
-            }
-            throw err;
-        } finally {
-            if (connection) {
-                await connection.end();
-            }
-        }
-    },
+      return {
+        message: "Update successful.",
+        model,
+        plate_number,
+        siting_capacity,
+      };
+    } catch (err) {
+      console.error("Error updating shuttle:", err);
+      if (connection) {
+        await connection.rollback();
+      }
+      throw err;
+    } finally {
+      if (connection) {
+        await connection.end();
+      }
+    }
+  },
 };
